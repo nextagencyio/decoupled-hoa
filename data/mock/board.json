@@ -1,0 +1,126 @@
+{
+  "data": {
+    "nodeBoardMembers": {
+      "__typename": "NodeBoardMemberConnection",
+      "nodes": [
+        {
+          "__typename": "NodeBoardMember",
+          "id": "board-president",
+          "title": "Janet Morrison",
+          "path": "/board/janet-morrison",
+          "body": {
+            "processed": "<p>Janet has been a Maplewood Heights resident since 2008 and has served on the board for six years. As president, she focuses on fiscal responsibility, transparent communication, and community engagement. She is a retired CPA and brings financial expertise to budget planning and reserve fund management.</p>",
+            "summary": "Janet has been a Maplewood Heights resident since 2008 and has served on the board for six years. As president, she focuses on fiscal responsibility, transparent communication, and community engagemen"
+          },
+          "positionTitle": "Board President",
+          "email": "president@maplewoodheightshoa.com",
+          "termExpires": "December 2027",
+          "photo": {
+            "url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=800&q=80",
+            "alt": "Janet Morrison, Board President",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeBoardMember",
+          "id": "board-vp",
+          "title": "Robert Kim",
+          "path": "/board/robert-kim",
+          "body": {
+            "processed": "<p>Robert moved to Maplewood Heights in 2012 with his family and joined the board in 2023. As Vice President, he oversees the Architectural Review Committee and helps maintain the community's aesthetic standards. He works as a civil engineer and lends his professional expertise to infrastructure decisions.</p>",
+            "summary": "Robert moved to Maplewood Heights in 2012 with his family and joined the board in 2023. As Vice President, he oversees the Architectural Review Committee and helps maintain the community's aesthetic s"
+          },
+          "positionTitle": "Vice President",
+          "email": "vicepresident@maplewoodheightshoa.com",
+          "termExpires": "December 2026",
+          "photo": {
+            "url": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=800&q=80",
+            "alt": "Robert Kim, Vice President",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeBoardMember",
+          "id": "board-treasurer",
+          "title": "Priya Nair",
+          "path": "/board/priya-nair",
+          "body": {
+            "processed": "<p>Priya has served as Treasurer since 2024, managing the HOA's annual budget of over $400,000. She is a financial analyst by profession and ensures that the community's funds are managed responsibly. She also chairs the Finance Committee, which provides quarterly reports to all homeowners.</p>",
+            "summary": "Priya has served as Treasurer since 2024, managing the HOA's annual budget of over $400,000. She is a financial analyst by profession and ensures that the community's funds are managed responsibly. Sh"
+          },
+          "positionTitle": "Treasurer",
+          "email": "treasurer@maplewoodheightshoa.com",
+          "termExpires": "December 2027",
+          "photo": {
+            "url": "https://images.unsplash.com/photo-1594381898411-846e7d193883?w=800&q=80",
+            "alt": "Priya Nair, Treasurer",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1594381898411-846e7d193883?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1594381898411-846e7d193883?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1594381898411-846e7d193883?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

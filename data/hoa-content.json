@@ -1,0 +1,335 @@
+{
+  "model": [
+    {
+      "bundle": "homepage",
+      "label": "Homepage",
+      "description": "HOA landing page with hero, stats, and call to action",
+      "fields": [
+        { "id": "hero_title", "label": "Hero Title", "type": "string" },
+        { "id": "hero_subtitle", "label": "Hero Subtitle", "type": "string" },
+        { "id": "hero_description", "label": "Hero Description", "type": "text" },
+        { "id": "stats_items", "label": "Statistics", "type": "paragraph(stat_item)[]" },
+        { "id": "featured_items_title", "label": "Featured Items Title", "type": "string" },
+        { "id": "cta_title", "label": "CTA Title", "type": "string" },
+        { "id": "cta_description", "label": "CTA Description", "type": "text" },
+        { "id": "cta_primary", "label": "Primary CTA", "type": "string" },
+        { "id": "cta_secondary", "label": "Secondary CTA", "type": "string" }
+      ]
+    },
+    {
+      "bundle": "announcement",
+      "label": "Announcement",
+      "description": "Community announcement or notice",
+      "body": true,
+      "fields": [
+        { "id": "announcement_date", "label": "Announcement Date", "type": "datetime" },
+        { "id": "priority", "label": "Priority", "type": "string" },
+        { "id": "category", "label": "Category", "type": "string" },
+        { "id": "image", "label": "Image", "type": "image" }
+      ]
+    },
+    {
+      "bundle": "board_member",
+      "label": "Board Member",
+      "description": "HOA board member profile",
+      "body": true,
+      "fields": [
+        { "id": "position_title", "label": "Position", "type": "string" },
+        { "id": "email", "label": "Email", "type": "string" },
+        { "id": "term_expires", "label": "Term Expires", "type": "string" },
+        { "id": "photo", "label": "Photo", "type": "image" }
+      ]
+    },
+    {
+      "bundle": "event",
+      "label": "Community Event",
+      "description": "HOA community event",
+      "body": true,
+      "fields": [
+        { "id": "event_date", "label": "Event Date", "type": "datetime" },
+        { "id": "end_date", "label": "End Date", "type": "datetime" },
+        { "id": "location", "label": "Location", "type": "string" },
+        { "id": "rsvp_required", "label": "RSVP Required", "type": "bool" },
+        { "id": "image", "label": "Event Image", "type": "image" }
+      ]
+    },
+    {
+      "bundle": "resource",
+      "label": "Resource",
+      "description": "HOA resource, document, or guide",
+      "body": true,
+      "fields": [
+        { "id": "resource_category", "label": "Category", "type": "string" },
+        { "id": "last_updated", "label": "Last Updated", "type": "string" },
+        { "id": "image", "label": "Image", "type": "image" }
+      ]
+    },
+    {
+      "bundle": "page",
+      "label": "Basic Page",
+      "description": "Static content page",
+      "body": true,
+      "fields": []
+    },
+    {
+      "entity": "paragraph",
+      "bundle": "stat_item",
+      "label": "Statistic Item",
+      "description": "A key statistic with number and label",
+      "fields": [
+        { "id": "number", "label": "Number", "type": "string!" },
+        { "id": "label", "label": "Label", "type": "string!" }
+      ]
+    }
+  ],
+  "taxonomies": [],
+  "content": [
+    {
+      "id": "stat-homes",
+      "type": "paragraph.stat_item",
+      "values": { "number": "342", "label": "Homes" }
+    },
+    {
+      "id": "stat-amenities",
+      "type": "paragraph.stat_item",
+      "values": { "number": "6", "label": "Community Amenities" }
+    },
+    {
+      "id": "stat-events",
+      "type": "paragraph.stat_item",
+      "values": { "number": "20+", "label": "Annual Events" }
+    },
+    {
+      "id": "stat-established",
+      "type": "paragraph.stat_item",
+      "values": { "number": "2003", "label": "Year Established" }
+    },
+    {
+      "id": "homepage",
+      "type": "node.homepage",
+      "path": "/homepage",
+      "values": {
+        "title": "Maplewood Heights HOA",
+        "hero_title": "Welcome to Maplewood Heights",
+        "hero_subtitle": "A Community You Will Love Coming Home To",
+        "hero_description": "<p>Maplewood Heights is a vibrant, well-maintained community where neighbors become friends. Stay informed about community news, events, and resources to make the most of life in our neighborhood.</p>",
+        "stats_items": ["@stat-homes", "@stat-amenities", "@stat-events", "@stat-established"],
+        "featured_items_title": "Latest Announcements",
+        "cta_title": "Get Involved in Your Community",
+        "cta_description": "<p>Join a committee, attend a board meeting, or volunteer at our next community event. Your voice matters in shaping the future of Maplewood Heights.</p>",
+        "cta_primary": "Upcoming Events",
+        "cta_secondary": "Contact the Board"
+      }
+    },
+    {
+      "id": "announcement-pool",
+      "type": "node.announcement",
+      "path": "/announcements/pool-season-2026",
+      "values": {
+        "title": "Pool Season Opens Memorial Day Weekend",
+        "body": "<p>The community pool will open for the 2026 season on Saturday, May 23. Pool hours will be 10:00 AM to 8:00 PM daily through Labor Day.</p><h2>What is New This Year</h2><ul><li>Resurfaced pool deck with new lounge furniture</li><li>Extended Friday evening hours until 9:30 PM</li><li>New splash pad area for children under 6</li><li>Poolside snack bar on weekends</li></ul><h2>Pool Passes</h2><p>Each household receives 2 resident passes and may purchase up to 4 guest passes at $5 each from the management office. Passes must be picked up before opening day.</p>",
+        "announcement_date": "2026-03-01T09:00:00",
+        "priority": "Normal",
+        "category": "Amenities",
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1576013551627-0cc20b96c2a7?w=800&q=80",
+          "alt": "Community swimming pool"
+        }
+      }
+    },
+    {
+      "id": "announcement-landscape",
+      "type": "node.announcement",
+      "path": "/announcements/spring-landscaping-schedule",
+      "values": {
+        "title": "Spring Landscaping and Maintenance Schedule",
+        "body": "<p>Our annual spring maintenance program begins April 1. Please review the schedule below and ensure your property is prepared for the following community-wide projects.</p><h2>Schedule</h2><ul><li><strong>April 1-7:</strong> Common area mulching and flower bed planting</li><li><strong>April 8-14:</strong> Tree trimming along main boulevards</li><li><strong>April 15-21:</strong> Irrigation system activation and testing</li><li><strong>April 22-30:</strong> Playground equipment inspection and repair</li></ul><h2>Homeowner Reminder</h2><p>Please complete any exterior home maintenance (painting, fence repair, lawn care) by April 15 to comply with community standards.</p>",
+        "announcement_date": "2026-03-10T09:00:00",
+        "priority": "High",
+        "category": "Maintenance",
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800&q=80",
+          "alt": "Landscaped neighborhood common area"
+        }
+      }
+    },
+    {
+      "id": "announcement-meeting",
+      "type": "node.announcement",
+      "path": "/announcements/annual-meeting-notice",
+      "values": {
+        "title": "Annual Homeowners Meeting - April 15",
+        "body": "<p>The annual homeowners meeting will be held on Tuesday, April 15 at 7:00 PM in the community clubhouse. All homeowners are encouraged to attend.</p><h2>Agenda</h2><ul><li>2025 financial report and 2026 budget review</li><li>Board election -- 3 open seats</li><li>Proposed amendment to pet policy</li><li>Capital improvement plan presentation</li><li>Open forum for homeowner questions</li></ul><p>Homeowners who cannot attend may submit a proxy vote. Proxy forms are available at the management office or on the resident portal.</p>",
+        "announcement_date": "2026-03-15T09:00:00",
+        "priority": "High",
+        "category": "Board Business",
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&q=80",
+          "alt": "Community meeting room"
+        }
+      }
+    },
+    {
+      "id": "board-president",
+      "type": "node.board_member",
+      "path": "/board/janet-morrison",
+      "values": {
+        "title": "Janet Morrison",
+        "body": "<p>Janet has been a Maplewood Heights resident since 2008 and has served on the board for six years. As president, she focuses on fiscal responsibility, transparent communication, and community engagement. She is a retired CPA and brings financial expertise to budget planning and reserve fund management.</p>",
+        "position_title": "Board President",
+        "email": "president@maplewoodheightshoa.com",
+        "term_expires": "December 2027",
+        "photo": {
+          "uri": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=800&q=80",
+          "alt": "Janet Morrison, Board President"
+        }
+      }
+    },
+    {
+      "id": "board-vp",
+      "type": "node.board_member",
+      "path": "/board/robert-kim",
+      "values": {
+        "title": "Robert Kim",
+        "body": "<p>Robert moved to Maplewood Heights in 2012 with his family and joined the board in 2023. As Vice President, he oversees the Architectural Review Committee and helps maintain the community's aesthetic standards. He works as a civil engineer and lends his professional expertise to infrastructure decisions.</p>",
+        "position_title": "Vice President",
+        "email": "vicepresident@maplewoodheightshoa.com",
+        "term_expires": "December 2026",
+        "photo": {
+          "uri": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=800&q=80",
+          "alt": "Robert Kim, Vice President"
+        }
+      }
+    },
+    {
+      "id": "board-treasurer",
+      "type": "node.board_member",
+      "path": "/board/priya-nair",
+      "values": {
+        "title": "Priya Nair",
+        "body": "<p>Priya has served as Treasurer since 2024, managing the HOA's annual budget of over $400,000. She is a financial analyst by profession and ensures that the community's funds are managed responsibly. She also chairs the Finance Committee, which provides quarterly reports to all homeowners.</p>",
+        "position_title": "Treasurer",
+        "email": "treasurer@maplewoodheightshoa.com",
+        "term_expires": "December 2027",
+        "photo": {
+          "uri": "https://images.unsplash.com/photo-1594381898411-846e7d193883?w=800&q=80",
+          "alt": "Priya Nair, Treasurer"
+        }
+      }
+    },
+    {
+      "id": "event-block-party",
+      "type": "node.event",
+      "path": "/events/summer-block-party",
+      "values": {
+        "title": "Summer Block Party",
+        "body": "<p>Our biggest community event of the year! Join your neighbors for an afternoon of food, music, games, and fun for the whole family. The event is free for all Maplewood Heights residents.</p><h2>Activities</h2><ul><li>BBQ cookout with burgers, hot dogs, and veggie options</li><li>Live music by local band The Oakwood Players</li><li>Bounce houses and face painting for kids</li><li>Cornhole tournament with prizes</li><li>Ice cream truck</li></ul>",
+        "event_date": "2026-07-04T12:00:00",
+        "end_date": "2026-07-04T17:00:00",
+        "location": "Community Park Pavilion",
+        "rsvp_required": false,
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1545205597-3d9d02c29597?w=800&q=80",
+          "alt": "Outdoor neighborhood block party"
+        }
+      }
+    },
+    {
+      "id": "event-cleanup",
+      "type": "node.event",
+      "path": "/events/spring-community-cleanup",
+      "values": {
+        "title": "Spring Community Cleanup Day",
+        "body": "<p>Roll up your sleeves and help beautify our neighborhood! Volunteers will gather for a morning of trail clearing, litter pickup, garden planting, and general common area sprucing.</p><h2>Details</h2><ul><li>Gloves, bags, and tools provided</li><li>Continental breakfast and coffee at 8:00 AM</li><li>Cleanup from 9:00 AM to 12:00 PM</li><li>Pizza lunch for all volunteers</li></ul><p>Families with children are welcome. Community service hours available for high school students.</p>",
+        "event_date": "2026-04-18T08:00:00",
+        "end_date": "2026-04-18T13:00:00",
+        "location": "Clubhouse Parking Lot (meeting point)",
+        "rsvp_required": true,
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800&q=80",
+          "alt": "Community volunteers working in a garden"
+        }
+      }
+    },
+    {
+      "id": "event-movie-night",
+      "type": "node.event",
+      "path": "/events/outdoor-movie-night",
+      "values": {
+        "title": "Outdoor Movie Night",
+        "body": "<p>Bring your blankets and lawn chairs for a family-friendly movie under the stars! Popcorn and drinks will be provided. The featured film will be announced one week before the event.</p><h2>What to Bring</h2><ul><li>Blankets or lawn chairs</li><li>Bug spray</li><li>Snacks to share (optional)</li></ul><p>Movie starts at sundown, approximately 8:15 PM. Arrive early for a good spot!</p>",
+        "event_date": "2026-06-20T19:30:00",
+        "end_date": "2026-06-20T22:00:00",
+        "location": "Community Park Great Lawn",
+        "rsvp_required": false,
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=800&q=80",
+          "alt": "Outdoor movie screening at dusk"
+        }
+      }
+    },
+    {
+      "id": "resource-guidelines",
+      "type": "node.resource",
+      "path": "/resources/architectural-guidelines",
+      "values": {
+        "title": "Architectural Guidelines",
+        "body": "<p>All exterior modifications to homes in Maplewood Heights require approval from the Architectural Review Committee (ARC) before work begins. These guidelines ensure our community maintains its attractive, cohesive appearance.</p><h2>What Requires Approval</h2><ul><li>Exterior paint color changes</li><li>Fence installation or replacement</li><li>Landscaping changes to front yard</li><li>Deck, patio, or pergola construction</li><li>Roof replacement (material and color)</li><li>Solar panel installation</li></ul><h2>How to Submit a Request</h2><p>Complete the ARC Request Form available at the management office or on the resident portal. Include a description of the project, photos, material samples, and a timeline. The committee reviews requests within 30 days.</p>",
+        "resource_category": "Governance",
+        "last_updated": "January 2026",
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=800&q=80",
+          "alt": "Well-maintained neighborhood homes"
+        }
+      }
+    },
+    {
+      "id": "resource-amenities-guide",
+      "type": "node.resource",
+      "path": "/resources/amenities-guide",
+      "values": {
+        "title": "Community Amenities Guide",
+        "body": "<p>Maplewood Heights offers six community amenities available to all residents in good standing. Here is everything you need to know about accessing and enjoying our shared facilities.</p><h2>Swimming Pool</h2><p>Open Memorial Day through Labor Day. Hours: 10 AM - 8 PM daily. Resident passes required.</p><h2>Clubhouse</h2><p>Available for private events. Holds up to 80 guests. Reserve online through the resident portal. $100 deposit required.</p><h2>Fitness Center</h2><p>Open 5 AM - 10 PM daily. Keycard access for residents. Equipment includes treadmills, ellipticals, free weights, and weight machines.</p><h2>Playground</h2><p>Two playgrounds designed for ages 2-5 and 5-12. Open dawn to dusk.</p><h2>Walking Trails</h2><p>1.5 miles of paved walking trails through natural areas. Dog-friendly with waste stations.</p><h2>Tennis Courts</h2><p>Two courts available on a first-come, first-served basis. Court shoes required.</p>",
+        "resource_category": "Amenities",
+        "last_updated": "February 2026",
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=800&q=80",
+          "alt": "Neighborhood community amenities"
+        }
+      }
+    },
+    {
+      "id": "resource-new-resident",
+      "type": "node.resource",
+      "path": "/resources/new-resident-guide",
+      "values": {
+        "title": "New Resident Welcome Guide",
+        "body": "<p>Welcome to Maplewood Heights! We are delighted to have you as part of our community. This guide will help you settle in and get connected.</p><h2>Getting Started</h2><ul><li>Register with the management office to receive your amenity passes and keycard</li><li>Set up your resident portal account for online payments and communication</li><li>Review the CC&Rs and community rules</li><li>Sign up for email notifications</li></ul><h2>Important Contacts</h2><ul><li><strong>Management Office:</strong> (555) 555-1000</li><li><strong>After-Hours Emergency:</strong> (555) 555-1001</li><li><strong>Pool Issues:</strong> (555) 555-1002</li></ul><h2>Trash and Recycling</h2><p>Trash pickup is every Tuesday and Friday. Recycling pickup is every Wednesday. Bins should be placed curbside by 6:00 AM and removed by 8:00 PM.</p>",
+        "resource_category": "Getting Started",
+        "last_updated": "March 2026",
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&q=80",
+          "alt": "Welcoming suburban neighborhood street"
+        }
+      }
+    },
+    {
+      "id": "page-about",
+      "type": "node.page",
+      "path": "/about",
+      "values": {
+        "title": "About Maplewood Heights HOA",
+        "body": "<p>Maplewood Heights Homeowners Association was established in 2003 to preserve property values, maintain common areas, and foster a strong sense of community among our 342 homes.</p><h2>Our Mission</h2><p>To maintain and enhance the quality of life in Maplewood Heights by responsibly managing community resources, enforcing fair and consistent standards, and creating opportunities for neighbors to connect.</p><h2>Governance</h2><p>The HOA is governed by a 5-member Board of Directors elected by homeowners for staggered 2-year terms. The board meets monthly on the third Tuesday at 7:00 PM in the clubhouse. All homeowners are welcome to attend.</p><h2>Dues</h2><p>Monthly assessments are $185 per household and cover landscaping, amenity maintenance, insurance, management fees, and reserve contributions.</p>"
+      }
+    },
+    {
+      "id": "page-contact",
+      "type": "node.page",
+      "path": "/contact",
+      "values": {
+        "title": "Contact Us",
+        "body": "<h2>Management Office</h2><p>Maplewood Heights HOA is professionally managed by Pinnacle Community Management.</p><ul><li><strong>Office Hours:</strong> Monday-Friday 9:00 AM - 5:00 PM</li><li><strong>Phone:</strong> (555) 555-1000</li><li><strong>Email:</strong> info@maplewoodheightshoa.com</li><li><strong>Address:</strong> 100 Maplewood Drive, Clubhouse, Suite A</li></ul><h2>After-Hours Emergencies</h2><p>For urgent maintenance issues outside of business hours (water main breaks, gate malfunctions, etc.), call the emergency line at (555) 555-1001.</p><h2>Board Contacts</h2><p>To reach the Board of Directors directly, email board@maplewoodheightshoa.com. The board reviews all correspondence and responds within 5 business days.</p>"
+      }
+    }
+  ]
+}

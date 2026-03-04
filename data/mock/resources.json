@@ -1,0 +1,123 @@
+{
+  "data": {
+    "nodeResources": {
+      "__typename": "NodeResourceConnection",
+      "nodes": [
+        {
+          "__typename": "NodeResource",
+          "id": "resource-guidelines",
+          "title": "Architectural Guidelines",
+          "path": "/resources/architectural-guidelines",
+          "body": {
+            "processed": "<p>All exterior modifications to homes in Maplewood Heights require approval from the Architectural Review Committee (ARC) before work begins. These guidelines ensure our community maintains its attractive, cohesive appearance.</p><h2>What Requires Approval</h2><ul><li>Exterior paint color changes</li><li>Fence installation or replacement</li><li>Landscaping changes to front yard</li><li>Deck, patio, or pergola construction</li><li>Roof replacement (material and color)</li><li>Solar panel installation</li></ul><h2>How to Submit a Request</h2><p>Complete the ARC Request Form available at the management office or on the resident portal. Include a description of the project, photos, material samples, and a timeline. The committee reviews requests within 30 days.</p>",
+            "summary": "All exterior modifications to homes in Maplewood Heights require approval from the Architectural Review Committee (ARC) before work begins. These guidelines ensure our community maintains its attracti"
+          },
+          "resourceCategory": "Governance",
+          "lastUpdated": "January 2026",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=800&q=80",
+            "alt": "Well-maintained neighborhood homes",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeResource",
+          "id": "resource-amenities-guide",
+          "title": "Community Amenities Guide",
+          "path": "/resources/amenities-guide",
+          "body": {
+            "processed": "<p>Maplewood Heights offers six community amenities available to all residents in good standing. Here is everything you need to know about accessing and enjoying our shared facilities.</p><h2>Swimming Pool</h2><p>Open Memorial Day through Labor Day. Hours: 10 AM - 8 PM daily. Resident passes required.</p><h2>Clubhouse</h2><p>Available for private events. Holds up to 80 guests. Reserve online through the resident portal. $100 deposit required.</p><h2>Fitness Center</h2><p>Open 5 AM - 10 PM daily. Keycard access for residents. Equipment includes treadmills, ellipticals, free weights, and weight machines.</p><h2>Playground</h2><p>Two playgrounds designed for ages 2-5 and 5-12. Open dawn to dusk.</p><h2>Walking Trails</h2><p>1.5 miles of paved walking trails through natural areas. Dog-friendly with waste stations.</p><h2>Tennis Courts</h2><p>Two courts available on a first-come, first-served basis. Court shoes required.</p>",
+            "summary": "Maplewood Heights offers six community amenities available to all residents in good standing. Here is everything you need to know about accessing and enjoying our shared facilities.Swimming PoolOpen M"
+          },
+          "resourceCategory": "Amenities",
+          "lastUpdated": "February 2026",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=800&q=80",
+            "alt": "Neighborhood community amenities",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeResource",
+          "id": "resource-new-resident",
+          "title": "New Resident Welcome Guide",
+          "path": "/resources/new-resident-guide",
+          "body": {
+            "processed": "<p>Welcome to Maplewood Heights! We are delighted to have you as part of our community. This guide will help you settle in and get connected.</p><h2>Getting Started</h2><ul><li>Register with the management office to receive your amenity passes and keycard</li><li>Set up your resident portal account for online payments and communication</li><li>Review the CC&Rs and community rules</li><li>Sign up for email notifications</li></ul><h2>Important Contacts</h2><ul><li><strong>Management Office:</strong> (555) 555-1000</li><li><strong>After-Hours Emergency:</strong> (555) 555-1001</li><li><strong>Pool Issues:</strong> (555) 555-1002</li></ul><h2>Trash and Recycling</h2><p>Trash pickup is every Tuesday and Friday. Recycling pickup is every Wednesday. Bins should be placed curbside by 6:00 AM and removed by 8:00 PM.</p>",
+            "summary": "Welcome to Maplewood Heights! We are delighted to have you as part of our community. This guide will help you settle in and get connected.Getting StartedRegister with the management office to receive "
+          },
+          "resourceCategory": "Getting Started",
+          "lastUpdated": "March 2026",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&q=80",
+            "alt": "Welcoming suburban neighborhood street",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

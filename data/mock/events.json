@@ -1,0 +1,141 @@
+{
+  "data": {
+    "nodeEvents": {
+      "__typename": "NodeEventConnection",
+      "nodes": [
+        {
+          "__typename": "NodeEvent",
+          "id": "event-block-party",
+          "title": "Summer Block Party",
+          "path": "/events/summer-block-party",
+          "body": {
+            "processed": "<p>Our biggest community event of the year! Join your neighbors for an afternoon of food, music, games, and fun for the whole family. The event is free for all Maplewood Heights residents.</p><h2>Activities</h2><ul><li>BBQ cookout with burgers, hot dogs, and veggie options</li><li>Live music by local band The Oakwood Players</li><li>Bounce houses and face painting for kids</li><li>Cornhole tournament with prizes</li><li>Ice cream truck</li></ul>",
+            "summary": "Our biggest community event of the year! Join your neighbors for an afternoon of food, music, games, and fun for the whole family. The event is free for all Maplewood Heights residents.ActivitiesBBQ c"
+          },
+          "eventDate": {
+            "timestamp": 1783184400
+          },
+          "endDate": {
+            "timestamp": 1783202400
+          },
+          "location": "Community Park Pavilion",
+          "rsvpRequired": false,
+          "image": {
+            "url": "https://images.unsplash.com/photo-1545205597-3d9d02c29597?w=800&q=80",
+            "alt": "Outdoor neighborhood block party",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1545205597-3d9d02c29597?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1545205597-3d9d02c29597?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1545205597-3d9d02c29597?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeEvent",
+          "id": "event-cleanup",
+          "title": "Spring Community Cleanup Day",
+          "path": "/events/spring-community-cleanup",
+          "body": {
+            "processed": "<p>Roll up your sleeves and help beautify our neighborhood! Volunteers will gather for a morning of trail clearing, litter pickup, garden planting, and general common area sprucing.</p><h2>Details</h2><ul><li>Gloves, bags, and tools provided</li><li>Continental breakfast and coffee at 8:00 AM</li><li>Cleanup from 9:00 AM to 12:00 PM</li><li>Pizza lunch for all volunteers</li></ul><p>Families with children are welcome. Community service hours available for high school students.</p>",
+            "summary": "Roll up your sleeves and help beautify our neighborhood! Volunteers will gather for a morning of trail clearing, litter pickup, garden planting, and general common area sprucing.DetailsGloves, bags, a"
+          },
+          "eventDate": {
+            "timestamp": 1776517200
+          },
+          "endDate": {
+            "timestamp": 1776535200
+          },
+          "location": "Clubhouse Parking Lot (meeting point)",
+          "rsvpRequired": true,
+          "image": {
+            "url": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800&q=80",
+            "alt": "Community volunteers working in a garden",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeEvent",
+          "id": "event-movie-night",
+          "title": "Outdoor Movie Night",
+          "path": "/events/outdoor-movie-night",
+          "body": {
+            "processed": "<p>Bring your blankets and lawn chairs for a family-friendly movie under the stars! Popcorn and drinks will be provided. The featured film will be announced one week before the event.</p><h2>What to Bring</h2><ul><li>Blankets or lawn chairs</li><li>Bug spray</li><li>Snacks to share (optional)</li></ul><p>Movie starts at sundown, approximately 8:15 PM. Arrive early for a good spot!</p>",
+            "summary": "Bring your blankets and lawn chairs for a family-friendly movie under the stars! Popcorn and drinks will be provided. The featured film will be announced one week before the event.What to BringBlanket"
+          },
+          "eventDate": {
+            "timestamp": 1782001800
+          },
+          "endDate": {
+            "timestamp": 1782010800
+          },
+          "location": "Community Park Great Lawn",
+          "rsvpRequired": false,
+          "image": {
+            "url": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=800&q=80",
+            "alt": "Outdoor movie screening at dusk",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

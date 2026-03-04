@@ -1,0 +1,132 @@
+{
+  "data": {
+    "nodeAnnouncements": {
+      "__typename": "NodeAnnouncementConnection",
+      "nodes": [
+        {
+          "__typename": "NodeAnnouncement",
+          "id": "announcement-pool",
+          "title": "Pool Season Opens Memorial Day Weekend",
+          "path": "/announcements/pool-season-2026",
+          "body": {
+            "processed": "<p>The community pool will open for the 2026 season on Saturday, May 23. Pool hours will be 10:00 AM to 8:00 PM daily through Labor Day.</p><h2>What is New This Year</h2><ul><li>Resurfaced pool deck with new lounge furniture</li><li>Extended Friday evening hours until 9:30 PM</li><li>New splash pad area for children under 6</li><li>Poolside snack bar on weekends</li></ul><h2>Pool Passes</h2><p>Each household receives 2 resident passes and may purchase up to 4 guest passes at $5 each from the management office. Passes must be picked up before opening day.</p>",
+            "summary": "The community pool will open for the 2026 season on Saturday, May 23. Pool hours will be 10:00 AM to 8:00 PM daily through Labor Day.What is New This YearResurfaced pool deck with new lounge furniture"
+          },
+          "announcementDate": {
+            "timestamp": 1772377200
+          },
+          "priority": "Normal",
+          "category": "Amenities",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1576013551627-0cc20b96c2a7?w=800&q=80",
+            "alt": "Community swimming pool",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1576013551627-0cc20b96c2a7?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1576013551627-0cc20b96c2a7?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1576013551627-0cc20b96c2a7?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeAnnouncement",
+          "id": "announcement-landscape",
+          "title": "Spring Landscaping and Maintenance Schedule",
+          "path": "/announcements/spring-landscaping-schedule",
+          "body": {
+            "processed": "<p>Our annual spring maintenance program begins April 1. Please review the schedule below and ensure your property is prepared for the following community-wide projects.</p><h2>Schedule</h2><ul><li><strong>April 1-7:</strong> Common area mulching and flower bed planting</li><li><strong>April 8-14:</strong> Tree trimming along main boulevards</li><li><strong>April 15-21:</strong> Irrigation system activation and testing</li><li><strong>April 22-30:</strong> Playground equipment inspection and repair</li></ul><h2>Homeowner Reminder</h2><p>Please complete any exterior home maintenance (painting, fence repair, lawn care) by April 15 to comply with community standards.</p>",
+            "summary": "Our annual spring maintenance program begins April 1. Please review the schedule below and ensure your property is prepared for the following community-wide projects.ScheduleApril 1-7: Common area mul"
+          },
+          "announcementDate": {
+            "timestamp": 1773151200
+          },
+          "priority": "High",
+          "category": "Maintenance",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800&q=80",
+            "alt": "Landscaped neighborhood common area",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeAnnouncement",
+          "id": "announcement-meeting",
+          "title": "Annual Homeowners Meeting - April 15",
+          "path": "/announcements/annual-meeting-notice",
+          "body": {
+            "processed": "<p>The annual homeowners meeting will be held on Tuesday, April 15 at 7:00 PM in the community clubhouse. All homeowners are encouraged to attend.</p><h2>Agenda</h2><ul><li>2025 financial report and 2026 budget review</li><li>Board election -- 3 open seats</li><li>Proposed amendment to pet policy</li><li>Capital improvement plan presentation</li><li>Open forum for homeowner questions</li></ul><p>Homeowners who cannot attend may submit a proxy vote. Proxy forms are available at the management office or on the resident portal.</p>",
+            "summary": "The annual homeowners meeting will be held on Tuesday, April 15 at 7:00 PM in the community clubhouse. All homeowners are encouraged to attend.Agenda2025 financial report and 2026 budget reviewBoard e"
+          },
+          "announcementDate": {
+            "timestamp": 1773583200
+          },
+          "priority": "High",
+          "category": "Board Business",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&q=80",
+            "alt": "Community meeting room",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

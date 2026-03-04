@@ -1,0 +1,59 @@
+{
+  "data": {
+    "nodeHomepages": {
+      "__typename": "NodeHomepageConnection",
+      "nodes": [
+        {
+          "__typename": "NodeHomepage",
+          "id": "homepage",
+          "title": "Maplewood Heights HOA",
+          "path": "/homepage",
+          "heroTitle": "Welcome to Maplewood Heights",
+          "heroSubtitle": "A Community You Will Love Coming Home To",
+          "heroDescription": {
+            "processed": "<p>Maplewood Heights is a vibrant, well-maintained community where neighbors become friends. Stay informed about community news, events, and resources to make the most of life in our neighborhood.</p>",
+            "summary": "Maplewood Heights is a vibrant, well-maintained community where neighbors become friends. Stay informed about community news, events, and resources to make the most of life in our neighborhood."
+          },
+          "statsItems": [
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-homes",
+              "title": "",
+              "number": "342",
+              "label": "Homes"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-amenities",
+              "title": "",
+              "number": "6",
+              "label": "Community Amenities"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-events",
+              "title": "",
+              "number": "20+",
+              "label": "Annual Events"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-established",
+              "title": "",
+              "number": "2003",
+              "label": "Year Established"
+            }
+          ],
+          "featuredItemsTitle": "Latest Announcements",
+          "ctaTitle": "Get Involved in Your Community",
+          "ctaDescription": {
+            "processed": "<p>Join a committee, attend a board meeting, or volunteer at our next community event. Your voice matters in shaping the future of Maplewood Heights.</p>",
+            "summary": "Join a committee, attend a board meeting, or volunteer at our next community event. Your voice matters in shaping the future of Maplewood Heights."
+          },
+          "ctaPrimary": "Upcoming Events",
+          "ctaSecondary": "Contact the Board"
+        }
+      ]
+    }
+  }
+}
