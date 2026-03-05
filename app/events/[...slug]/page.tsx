@@ -43,11 +43,11 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const item = await getEvent(path)
 
   if (!item) {
-    return { title: 'Event Not Found | Hoa' }
+    return { title: 'Event Not Found | HOA' }
   }
 
   return {
-    title: `${item.title} | Hoa`,
+    title: `${item.title} | HOA`,
     description: ((item as any).body?.processed ? (item as any).body.processed.replace(/<[^>]*>/g, '').substring(0, 160) : '') || `Learn more about ${item.title}.`,
   }
 }
