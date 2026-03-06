@@ -19,28 +19,28 @@
               "__typename": "ParagraphStatItem",
               "id": "stat-homes",
               "title": "",
-              "number": "342",
+              "number": "342", "value": "342",
               "label": "Homes"
             },
             {
               "__typename": "ParagraphStatItem",
               "id": "stat-amenities",
               "title": "",
-              "number": "6",
+              "number": "6", "value": "6",
               "label": "Community Amenities"
             },
             {
               "__typename": "ParagraphStatItem",
               "id": "stat-events",
               "title": "",
-              "number": "20+",
+              "number": "20+", "value": "20+",
               "label": "Annual Events"
             },
             {
               "__typename": "ParagraphStatItem",
               "id": "stat-established",
               "title": "",
-              "number": "2003",
+              "number": "2003", "value": "2003",
               "label": "Year Established"
             }
           ],
