@@ -1,8 +1,7 @@
+import { getClient } from '@/lib/drupal-client'
 import { Metadata } from 'next'
 import { notFound } from 'next/navigation'
-import { headers } from 'next/headers'
 import Link from 'next/link'
-import { getServerApolloClient } from '@/lib/apollo-client'
 import { GET_ANNOUNCEMENT_BY_PATH } from '@/lib/queries'
 import { DrupalAnnouncement } from '@/lib/types'
 import Header from '../../components/Header'
@@ -24,13 +23,8 @@ interface AnnouncementByPathData {
 
 async function getAnnouncement(path: string): Promise<DrupalAnnouncement | null> {
   try {
-    const requestHeaders = await headers()
-    const apolloClient = getServerApolloClient(requestHeaders)
-    const { data } = await apolloClient.query<AnnouncementByPathData>({
-      query: GET_ANNOUNCEMENT_BY_PATH,
-      variables: { path },
-      fetchPolicy: 'cache-first',
-    })
+    const client = getClient()
+    const { data } = await client.raw(GET_ANNOUNCEMENT_BY_PATH, { path })
     return data?.route?.entity || null
   } catch (error) {
     console.error('Error fetching announcement:', error)
