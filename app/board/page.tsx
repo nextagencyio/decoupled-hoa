@@ -16,7 +16,7 @@ export const metadata: Metadata = {
 async function getData() {
   try {
     const client = getClient()
-    const { data } = await client.raw<BoardMembersData>(({
+    const data = await client.raw<BoardMembersData>(({
       query: GET_BOARD_MEMBERS,
       variables: { first: 50 },
       fetchPolicy: 'cache-first',
@@ -59,7 +59,7 @@ export default async function BoardMembersPage() {
             </div>
           ) : (
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-              {items.map((item) => (
+              {items.map((item: any) => (
                 <BoardMemberCard key={item.id} item={item} />
               ))}
             </div>
