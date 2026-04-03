@@ -16,11 +16,7 @@ export const metadata: Metadata = {
 async function getData() {
   try {
     const client = getClient()
-    const data = await client.raw<ResourcesData>(({
-      query: GET_RESOURCES,
-      variables: { first: 50 },
-      fetchPolicy: 'cache-first',
-    }))
+    const data = await client.raw(GET_RESOURCES, { first: 50 }) as ResourcesData
     return data?.nodeResources?.nodes || []
   } catch (error) {
     console.error('Error fetching resources:', error)

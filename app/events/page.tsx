@@ -16,11 +16,7 @@ export const metadata: Metadata = {
 async function getData() {
   try {
     const client = getClient()
-    const data = await client.raw<EventsData>(({
-      query: GET_EVENTS,
-      variables: { first: 50 },
-      fetchPolicy: 'cache-first',
-    }))
+    const data = await client.raw(GET_EVENTS, { first: 50 }) as EventsData
     return data?.nodeEvents?.nodes || []
   } catch (error) {
     console.error('Error fetching events:', error)

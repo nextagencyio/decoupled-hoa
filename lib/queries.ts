@@ -61,8 +61,6 @@ export const GET_ANNOUNCEMENTS = gql`
             variations(styles: [LARGE, MEDIUM]) {
               name
               url
-              width
-              height
             }
           }
         }
@@ -97,8 +95,6 @@ export const GET_ANNOUNCEMENT_BY_PATH = gql`
               variations(styles: [LARGE, MEDIUM]) {
                 name
                 url
-                width
-                height
               }
             }
           }
@@ -132,8 +128,6 @@ export const GET_BOARD_MEMBERS = gql`
             variations(styles: [MEDIUM, THUMBNAIL]) {
               name
               url
-              width
-              height
             }
           }
         }
@@ -166,8 +160,6 @@ export const GET_BOARD_MEMBER_BY_PATH = gql`
               variations(styles: [LARGE, MEDIUM]) {
                 name
                 url
-                width
-                height
               }
             }
           }
@@ -207,8 +199,6 @@ export const GET_EVENTS = gql`
             variations(styles: [LARGE, MEDIUM]) {
               name
               url
-              width
-              height
             }
           }
         }
@@ -246,8 +236,6 @@ export const GET_EVENT_BY_PATH = gql`
               variations(styles: [LARGE, MEDIUM]) {
                 name
                 url
-                width
-                height
               }
             }
           }
@@ -281,8 +269,6 @@ export const GET_RESOURCES = gql`
             variations(styles: [LARGE, MEDIUM]) {
               name
               url
-              width
-              height
             }
           }
         }
@@ -314,8 +300,6 @@ export const GET_RESOURCE_BY_PATH = gql`
               variations(styles: [LARGE, MEDIUM]) {
                 name
                 url
-                width
-                height
               }
             }
           }
@@ -470,8 +454,6 @@ export const GET_FEATURED_ITEMS = gql`
             variations(styles: [MEDIUM]) {
               name
               url
-              width
-              height
             }
           }
         }

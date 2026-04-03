@@ -16,11 +16,7 @@ export const metadata: Metadata = {
 async function getData() {
   try {
     const client = getClient()
-    const data = await client.raw<BoardMembersData>(({
-      query: GET_BOARD_MEMBERS,
-      variables: { first: 50 },
-      fetchPolicy: 'cache-first',
-    }))
+    const data = await client.raw(GET_BOARD_MEMBERS, { first: 50 }) as BoardMembersData
     return data?.nodeBoardMembers?.nodes || []
   } catch (error) {
     console.error('Error fetching board members:', error)
